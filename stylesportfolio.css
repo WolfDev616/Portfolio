@@ -1,0 +1,61 @@
+html {
+    background-color: #f7f1f0;
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 8px solid green;
+    margin: 0px;
+    border-style: groove;
+    padding: 20px;
+}
+
+.links {
+    justify-content: left;
+}
+
+.cafe-image {
+   max-width: 5%;
+   height: auto;
+   vertical-align:text-bottom;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav h2 {
+    text-shadow: 2px 2px 1px rgb(105, 102, 102);
+}
+
+nav ul {
+    padding-right: 50px;
+}
+
+.main {
+    align-content: center;
+}
+
+.info, .estudos, .projetos {
+    display: block;
+    border: 1px solid green;
+    width: 500px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(5, 53, 5);
+}
+
+.estudos div {
+    display: flex;
+}
+
+.estudos ul {
+    height: 200px;
+}
+
+
+.contato {
+    text-align: center;
+}
