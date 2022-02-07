@@ -1,23 +1,25 @@
 html {
-    background-color: #f7f1f0;
+    background: linear-gradient(90deg, #ddd, rgb(29, 75, 2));
+    /* Color possible templates 
+    Deep Forest green: #152809
+    */
 }
 
 /* BODY */
 
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 8px solid green;
     margin: 0px;
-    border-style: groove;
     padding: 20px;
 }
 
 /* HEAD */
 
-nav {
+.head-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    height: 630px;
     margin-bottom: 12px;
     border-bottom: 2px solid green;
 }
@@ -26,29 +28,36 @@ nav {
     width:10%;
 }
 
-nav h2 {
+.head-info h2 {
     text-shadow: 1px 1px 5px rgb(105, 102, 102);
+    font-size: 35px;
 }
 
-nav div {
+.head-info div {
     align-items: center;
 }
 
-nav div p {
+.head-info div p {
     display: block;
     max-width: 400px;
 }
 
-nav ul {
+.head-info ul {
     display: flex;
     list-style:none;
     justify-content: space-around;
+    color: black;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-nav ul li {
+.head-info ul li {
     margin-left: 18px;
+    color: black;
+}
+
+.head-info ul li:hover {
+    color:rgb(29, 75, 2)
 }
 
 /* TEXT */
@@ -58,14 +67,19 @@ nav ul li {
 }
 
 
-.info, .estudos, .projetos {
+.objetivo, .info, .estudos, .projetos {
     display: inline-block;
     border: 2px solid green;
-    max-width: 500px;
+    max-width: 900px;
     padding: 20px;
     margin-top: 10px;
     background-color: white;
     box-shadow: 2px 2px 2px rgb(5, 53, 5);
+    opacity: 0,5;
+}
+
+.objetivo {
+    float: right;
 }
 
 .projetos {
